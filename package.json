@@ -1,0 +1,40 @@
+{
+  "name": "any-stream",
+  "version": "1.0.0",
+  "description": "Make any function that takes string input streamable.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/any-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "streams",
+    "transform",
+    "transforms",
+    "function",
+    "functions"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/any-stream/issues"
+  },
+  "homepage": "https://github.com/gummesson/any-stream",
+  "dependencies": {
+    "sliced": "0.0.5",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.8",
+    "contentstream": "^1.0.0",
+    "covert": "^1.0.1",
+    "html-minifier": "^0.7.2",
+    "tape": "^4.0.0",
+    "upper-case": "^1.1.2"
+  },
+  "scripts": {
+    "test": "node test/",
+    "test:cover": "covert test/"
+  }
+}
